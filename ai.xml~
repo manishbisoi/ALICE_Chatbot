@@ -1,0 +1,89 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- std-startup.xml -->
+
+    <!-- Category is an atomic AIML unit -->
+    <category>
+
+        <!-- Pattern to match in user input -->
+        <!-- If user enters "LOAD AIML B" -->
+        <pattern>LOAD AIML AI</pattern>
+
+        <!-- Template is the response to the pattern -->
+        <!-- This learn an aiml file -->
+        <template>
+            <learn>alice/ai.aiml</learn>            
+            <learn>alice/politics.aiml</learn>            
+            <learn>alice/reduction4.safe.aiml</learn>            
+            <learn>alice/phone.aiml</learn>            
+            <learn>alice/mp0.aiml</learn>            
+            <learn>alice/date.aiml</learn>            
+            <learn>alice/geography.aiml</learn>            
+            <learn>alice/client.aiml</learn>            
+            <learn>alice/numbers.aiml</learn>            
+            <learn>alice/psychology.aiml</learn>            
+            <learn>alice/imponderables.aiml</learn>            
+            <learn>alice/emotion.aiml</learn>            
+            <learn>alice/mp6.aiml</learn>            
+            <learn>alice/client_profile.aiml</learn>            
+            <learn>alice/inquiry.aiml</learn>            
+            <learn>alice/reduction.names.aiml</learn>            
+            <learn>alice/music.aiml</learn>            
+            <learn>alice/iu.aiml</learn>            
+            <learn>alice/computers.aiml</learn>            
+            <learn>alice/stories.aiml</learn>            
+            <learn>alice/humor.aiml</learn>            
+            <learn>alice/that.aiml</learn>            
+            <learn>alice/default.aiml</learn>            
+            <learn>alice/atomic.aiml</learn>            
+            <learn>alice/reductions-update.aiml</learn>            
+            <learn>alice/bot_profile.aiml</learn>            
+            <learn>alice/personality.aiml</learn>            
+            <learn>alice/religion.aiml</learn>            
+            <learn>alice/junktest.text</learn>            
+            <learn>alice/primeminister.aiml</learn>            
+            <learn>alice/science.aiml</learn>            
+            <learn>alice/alice.aiml</learn>            
+            <learn>alice/literature.aiml</learn>            
+            <learn>alice/reduction1.safe.aiml</learn>            
+            <learn>alice/update1.aiml</learn>            
+            <learn>alice/money.aiml</learn>            
+            <learn>alice/pyschology1.aiml</learn>            
+            <learn>alice/loebner10.aiml</learn>            
+            <learn>alice/history.aiml</learn>            
+            <learn>alice/pickup.aiml</learn>            
+            <learn>alice/gossip.aiml</learn>            
+            <learn>alice/knowledge.aiml</learn>            
+            <learn>alice/reduction0.safe.aiml</learn>            
+            <learn>alice/stack.aiml</learn>            
+            <learn>alice/primitive-math.aiml</learn>            
+            <learn>alice/mp5.aiml</learn>            
+            <learn>alice/sports.aiml</learn>            
+            <learn>alice/drugs.aiml</learn>            
+            <learn>alice/wallace.aiml</learn>            
+            <learn>alice/ai.aiml~</learn>            
+            <learn>alice/badanswer.aiml</learn>            
+            <learn>alice/xfind.aiml</learn>            
+            <learn>alice/mp3.aiml</learn>            
+            <learn>alice/ai.aiml</learn>            
+            <learn>alice/reduction3.safe.aiml</learn>            
+            <learn>alice/astrology.aiml</learn>            
+            <learn>alice/continuation.aiml</learn>            
+            <learn>alice/biography.aiml</learn>            
+            <learn>alice/movies.aiml</learn>            
+            <learn>alice/food.aiml</learn>            
+            <learn>alice/salutations.aiml</learn>            
+	    <learn>alice/sex.aiml</learn>            
+            <learn>alice/bot.aiml</learn>            
+            <learn>alice/mp4.aiml</learn>            
+            <learn>alice/interjection.aiml</learn>            
+            <learn>alice/mp2.aiml</learn>            
+            <learn>alice/reduction2.safe.aiml</learn>            
+            <learn>alice/mp1.aiml</learn>            
+	    <!-- You can add more aiml files here -->
+            <!--<learn>more_aiml.aiml</learn>-->
+        </template>
+        
+    </category>
+
+</aiml>
+
